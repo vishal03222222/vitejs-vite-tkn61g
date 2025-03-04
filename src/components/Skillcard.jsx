@@ -46,4 +46,4 @@ const SkillCard = ({
   }
   
 
-export default Skillcard
+export default SkillCard

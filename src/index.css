@@ -1,4 +1,4 @@
-/* :root {
+:root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
@@ -65,11 +65,11 @@
     button {
       background-color: #f9f9f9;
     }
-  } */
+  } 
 
- */
+ 
 
-
+/* 
   
 html {
     Scroll-behaviour: smooth;
@@ -136,7 +136,7 @@ font-variation-settings:"FILL"0, "wght" 400 , "GRAD" 0,
  }
 
  .img-cover{
- @apply w-full h-full object-cover;
+ @apply w-full h-full object-cover;}
 
  .headline-1{
  @apply max-w-max;
@@ -172,5 +172,6 @@ btn-primary {
 .headline-2{
   @apply text-3xl lg:text-4xl lg:leading-tigt font-semibold
 }
-
-   
+.title-1{
+@apply text-[22px] font-normal
+    */
