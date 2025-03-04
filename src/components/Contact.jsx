@@ -37,7 +37,7 @@ const Contact = () => {
 
             <div className='container'>
                 <div>
-                    <h2 className='headline-2'>contact m wfor collabration</h2>
+                    <h2 className='headline-2 lg:max-m-[12ch] reveal-up'>contact m wfor collabration</h2>
 
                     <p className="">
                         Reach out today to discuss your project needs
@@ -49,13 +49,13 @@ const Contact = () => {
                             <a href={href}
                                 key={key}
                                 target="_blank"
-                                className=''>{icon}</a>
+                                className='reveal-up'>{icon}</a>
                         ))}
                     </div>
 
                 </div>
                 <form
-                    action=""
+                    action="https://getform.io/f/aolmzoqb"
                     method="POST"
                     className=""
                 >
@@ -93,7 +93,7 @@ const Contact = () => {
                                 autoComplete='emial'
                                 required
                                 placeholder='henry calin'
-                                className='text-fileld' />
+                                className='text-fileld reveal-up' />
                         </div>
                     </div>
 
@@ -110,7 +110,7 @@ const Contact = () => {
                         ></textarea>
 
                     </div>
-
+<button type="submit" className='btn btn-primary reveal-up'></button>
                 </form>
 
 

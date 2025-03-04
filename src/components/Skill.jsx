@@ -64,6 +64,7 @@ const Skill = () => {
                         imgSrc={imgSrc}
                         labe1={label}
                         desc={desc}
+                        classes="reveal-up"
                         />
                     ))}
                 </div>
