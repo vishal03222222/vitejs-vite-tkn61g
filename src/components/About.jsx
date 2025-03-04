@@ -21,8 +21,8 @@ const About = () => {
                         I transform your vision into a digital masterpiece that excels in both appearance and performance.
                     </p>
                     <div className="">
-                        {aboutItems.map(({ label, number }, index) => (
-                            <div key={key}>
+                        {aboutitems.map(({ label, number }, index) => (
+                            <div key={index}>
                                <div className=''>
                                 <span className=''>{number}</span>
                                 <span className=''>+</span>
