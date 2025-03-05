@@ -9,7 +9,7 @@ ratings.fill({
 console.log(ratings);
 
 const ReviewCard = ({
-  content, imgsrc,name,company  
+  content, imgSrc,name,company  
 }) => {
   return (
     <div className="">

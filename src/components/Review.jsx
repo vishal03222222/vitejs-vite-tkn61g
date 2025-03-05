@@ -1,6 +1,6 @@
 import React from 'react'
 import ReviewCard from './ReviewCard';
-import { useGSAP } from '@gsap/react';
+//import { useGSAP ,gsap} from '@gsap/react';
 const reviews = [
     {
       content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
@@ -40,9 +40,9 @@ const reviews = [
     }
   ];
 const Review = () => {
-    useGSAP(()=>{
-        gsap.to('.scrub_slide')
-    })
+    // useGSAP(()=>{
+    //     gsap.to('.scrub_slide')
+    // })
     return (
         <section 
           id="reviews"
